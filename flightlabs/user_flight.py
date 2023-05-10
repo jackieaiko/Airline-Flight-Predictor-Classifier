@@ -79,18 +79,7 @@ def best_flight(origin, destination, date):
 
         carrier_name = i["items"][0]["legs"][0]["segments"]["operatingCarrier"]["name"]
         carrier_id = i["items"][0]["legs"][0]["segments"]["operatingCarrier"]["alternateId"]
-    # origin = api_response["data"]["buckets"][0]["items"][0]["legs"][0]["origin"]["id"]
-    # dest = api_response["data"]["buckets"][0]["items"][0]["legs"][0]["destination"]["id"]
 
-    # departure_time = api_response["data"]["buckets"][0]["items"][0]["legs"][0]["departure"]
-    # arrival_time = api_response["data"]["buckets"][0]["items"][0]["legs"][0]["departure"]
-
-    # stop_count = api_response["data"]["buckets"][0]["items"][0]["legs"][0]["stopCount"]
-
-    # flight_num = api_response["data"]["buckets"][0]["items"][0]["legs"][0]["segments"]["flightNumber"]
-
-    # carrier_name = api_response["data"]["buckets"][0]["items"][0]["legs"][0]["segments"]["operatingCarrier"]["name"]
-    # carrier_id = api_response["data"]["buckets"][0]["items"][0]["legs"][0]["segments"]["operatingCarrier"]["alternateId"]
 
         flight_option = {
             'origin': origin,

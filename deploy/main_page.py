@@ -5,10 +5,10 @@ import requests
 import catboost as cb
 import pandas as pd
 
-pickle_in = open('/app/data-science-project-lab/deploy/catboost.pkl', 'rb')
+pickle_in = open('/app/data-science-project/deploy/catboost.pkl', 'rb')
 classifier = pickle.load(pickle_in)
 
-pickle_in = open('/app/data-science-project-lab/deploy/label_encoder.pkl', 'rb')
+pickle_in = open('/app/data-science-project/deploy/label_encoder.pkl', 'rb')
 label_encoder = pickle.load(pickle_in)
 
 def prediction(origin, dest, flight_num, airline_id):
