@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "flightpredict-382807",
+  "private_key_id": "a6c0dbc4e4ccf46398cca8c8e0bf81bfe42efc5e",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDFTiprqPkDaWUy\nftVF8c2Bqz3ighyfJRAYJeHVWKX+VCQWQDmz7S0ybwksHdgtDcF/CSvQ5ze5XHyG\nVOkhMeekrMvsUXatrLkafAoaj0uTnedk4YcBN/1GPENwAnd7niu4HbyFi4PlV1Eh\n9Nkl4hLbxPhZiiSWt5EeoiTVWPwKUtbHUu4xzHSdSEAiWOJL1ZKzsKowt9yXCPxO\nmYGW8CSn2XmOp6LDf/s+Xs9CiyZmEi7Zm0WofHFOXEaKDjvk4Ukoxo2m+KayJpBn\n5CoqGcmdWsxjz6+5zQPoimZIprvlaR/ZjxFZC+93wnHCuteGviCsGeSc9imELznC\n8G3gruHHAgMBAAECggEAC9tzNC4e7OQQF1VE9uOdsI28ddjQ5IWDLphUNpCRxTOE\nSawJa7U0sqO2nuaaP7bkaoCAGBlVIXgb6ay/p+WKYLybsrOAmNZY92z95HO5HIFw\nTwE4rkuRln93pAsZ6B1szi9HTZVBU26Iayx+QkcQUBHJxQPGyCH3ACrJYOLsnqgZ\nmVRXiAfD0AEyuaFs4rq24MCpmzpi4bfm4qYbyjsyBepS7/uFADTZpcpf6K+IEtwY\niIW3S9BFKFjwVHgC2zLVlmS8aPoWJl/fYpR+rUm0AqxdxCrgBc93DtODvsSl2PcU\nEBJT49+OYvVt8I24etoTw1IqZgNfoHKKmwolKfywZQKBgQD9BC8usw2fJ3utXOYn\nNvrMR5V6X/XzEMJqiEVjE9kUERMzuCjqe8eVY3EENOyJ0a+1sTekJycGOoajv9fJ\nStzE8kQcHvy9SlJSyTC74+a4+caF4c0PG4nM0PSgoBLUZGSWfXEUnDMbuuveJCCT\nT9/Ka/R20BNjos8rjXdji4Cr+wKBgQDHocx+1DucPkGnnV3Edry0tkzjUX07tZv4\ny6BeDzJ6XkR6iE22HthrZ0sm3GLs5LZ97XN4U4E6zsyGQtyhQe5dlqezbTys5Mn0\nNMrQVwJ1ZWIAmU2oJWWkE77QhwuHMzfiXeEV2MzZryKh66YgbW6H0beIgOJGwNUE\ntrUvHSDLpQKBgE9lAb1AuHSJujiDX0FM8lQp3lEBTbdROgCd9FALyWGPnhvrnQM/\nhjhtdOhiBxuULfPwwUoEcy10Lg2yRG9Iy5ANiavdWWe4q66IrX84G41N66rVWTh1\nZr9bjnfc4yu8uQe0I0jZXvxDooIZihNPzCTDzXl+/6aTTzkWcjFNdDoDAoGAVzmX\n21aqEROWpkD5Bm2G+EKrB6vEV0F7u9Jk6JQlTxg/PXau1cNWdl80k+85fh5UqmME\nz+9UiLhw3rz6H69qEhRQg/JXz4dLwlsKvss1tMuubWqOZsioR2+lMQHAhLtZUJwK\nS/xlTTvbmvoWpRaLc+arFYaS161Lpfqa4dINUU0CgYEA6skX6V76+c5STZwg0xRd\nxaAtPNfe0SOzQy3l0vu0Rw9S0Mb7I38VoMeagCdaXJP1rzlD1LgcUPKiL3OB7NW0\nBRRfPwa4QFWcCqKIqhiyfzvaPPx64M9KmRGXwcYdov5JWF6iGVNoIyBb+sxo/CgY\nl3XZIbdFYhRW7NhJJVJ7tvI=\n-----END PRIVATE KEY-----\n",
+  "client_email": "ds-service-api@flightpredict-382807.iam.gserviceaccount.com",
+  "client_id": "102253667926276197549",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/ds-service-api%40flightpredict-382807.iam.gserviceaccount.com"
+}
