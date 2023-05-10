@@ -96,7 +96,7 @@ if __name__ == "__main__":
                 if st.button('Predict'):
                     origin_input = flight_options[flight_pick]["origin"]
                     dest_input = flight_options[flight_pick]["destination"]
-                    flight_num = flight_options[flight_pick]["airline"]
+                    flight_num = flight_options[flight_pick]["flightNumber"]
                     airline_id = flight_options[flight_pick]["airline_id"]
 
                     result = prediction(origin, dest, flight_num, airline_id)
