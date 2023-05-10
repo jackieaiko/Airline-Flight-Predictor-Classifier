@@ -12,8 +12,8 @@ def pickle_classifier(classifier):
     pickle_out.close()
 
 
-def fit_classifier():
-    df = pd.read_csv("../querying/big_data/predictor.csv")
+def fit_classifier(df):
+    
 
     classifier = DecisionTreeClassifier()
     label_encoder = LabelEncoder()
