@@ -43,9 +43,7 @@ def fit_classifier():
         y_train, y_test = y.iloc[train_index], y.iloc[test_index]
         
         # Train the classifier on the training data
-        print("fitting")
         classifier.fit(X_train, y_train)
-        print("finish fit")
         
         # Predict the labels for the test data
         y_pred = classifier.predict(X_test)

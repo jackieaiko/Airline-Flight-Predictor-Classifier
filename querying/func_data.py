@@ -135,5 +135,4 @@ if __name__ == "__main__":
     os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = c_path
     client = bigquery.Client()
 
-    #predictor_dataset(client)
-    isdelay_dataset(client)
+    predictor_dataset(client)
