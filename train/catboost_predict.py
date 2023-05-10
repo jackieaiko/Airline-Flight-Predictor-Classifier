@@ -4,7 +4,7 @@ from catboost import CatBoostClassifier
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import LabelEncoder
 
-pickle_in = open('catboost.pkl', 'rb')
+pickle_in = open('../deploy/catboost.pkl', 'rb')
 
 classifier = pickle.load(pickle_in)
 
@@ -22,15 +22,13 @@ if __name__ == "__main__":
 
     x_test_encoded = ['DL', "4654", 'SEA', 'ATL']
 
+    x_test_encoded = ['B6', "1006", 'PDX', 'JFK']
+
     pickle_in = open('label_encoder.pkl', 'rb')
     label_encoder = pickle.load(pickle_in)
 
     encoded_values = label_encoder.transform(x_test_encoded)
     print(encoded_values)
-    label_encoder = LabelEncoder()
-
-    
-
 
     predicted = prediction(encoded_values)
 

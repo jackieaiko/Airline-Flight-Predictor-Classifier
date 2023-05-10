@@ -61,5 +61,5 @@ def fit_classifier(df):
     print("Average Accuracy:", average_accuracy)
 
 if __name__ == "__main__":
-
-    fit_classifier()
+    df = pd.read_csv("./querying/big_data/predictor.csv")
+    fit_classifier(df)

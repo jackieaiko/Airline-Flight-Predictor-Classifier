@@ -12,7 +12,7 @@ pickle_in = open('/app/data-project-lab/deploy/label_encoder.pkl', 'rb')
 label_encoder = pickle.load(pickle_in)
 
 def prediction(origin, dest, flight_num, airline_id):
-    x_test = [origin, dest, flight_num, airline_id]
+    x_test = [airline_id, flight_num, origin, dest]
     encoded_values = label_encoder.transform(x_test)
 
     prediction = classifier.predict([encoded_values])
