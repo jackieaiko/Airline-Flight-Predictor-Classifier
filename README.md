@@ -16,6 +16,6 @@
     * queries datasets to be used for eda and stores in big_data directory
 
 ## Machine Learning
-1. train_gcp.py
+1. catboost_classifier.py
+2. cross_validation.py
 
-## testing

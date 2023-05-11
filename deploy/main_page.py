@@ -71,7 +71,7 @@ if __name__ == "__main__":
 
         origin = st.text_input("Origin Airport  e.g. PDX")
         dest = st.text_input("Destination Airport  e.g. GEG")
-        min_date = datetime.date(2023, 6, 1)
+        min_date = datetime.date(2023, 5, 12)
         max_date = datetime.date(2024, 6, 1)
         date = st.date_input("Travel date", value=min_date, min_value=min_date, max_value=max_date)
 
